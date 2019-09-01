@@ -1,0 +1,108 @@
+{
+  "uid" : "417cf929084f0cd8",
+  "name" : "test_case",
+  "fullName" : "test_1#test_case",
+  "historyId" : "5d90671a005d06196217f49dbce2ff7d",
+  "time" : {
+    "start" : 1566181845518,
+    "stop" : 1566181845519,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "字符串相加：'hello'，'world'",
+      "time" : {
+        "start" : 1566181845518,
+        "stop" : 1566181845518,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "str1",
+        "value" : "'hello'"
+      }, {
+        "name" : "str2",
+        "value" : "'world'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "fd1925ddb964c34b",
+      "name" : "stdout",
+      "source" : "fd1925ddb964c34b.txt",
+      "type" : "text/plain",
+      "size" : 6
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "test_story_01"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "模块五"
+  }, {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "test_1"
+  }, {
+    "name" : "subSuite"
+  }, {
+    "name" : "host",
+    "value" : "PCL-LIWEI"
+  }, {
+    "name" : "thread",
+    "value" : "11592-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "http://www.testlink.com",
+    "url" : "http://www.testlink.com",
+    "type" : "test_case"
+  }, {
+    "name" : "http://www.baidu.com",
+    "url" : "http://www.baidu.com",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "417cf929084f0cd8.json",
+  "parameterValues" : [ ]
+}

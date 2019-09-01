@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 0 > 100000",
+      "children" : [ {
+        "name" : "test_3",
+        "uid" : "8a7bf802501fb40",
+        "parentUid" : "5c0065d2552bb6a41ea73ca399568ca2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1566181845320,
+          "stop" : 1566181845321,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5c0065d2552bb6a41ea73ca399568ca2"
+    }, {
+      "name" : "AssertionError: assert '香港' in 'china'",
+      "children" : [ {
+        "name" : "test_4",
+        "uid" : "f9d8320084217127",
+        "parentUid" : "20f0ccfa2e86da1236f8413c043ca328",
+        "status" : "failed",
+        "time" : {
+          "start" : 1566181845395,
+          "stop" : 1566181845396,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "20f0ccfa2e86da1236f8413c043ca328"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
